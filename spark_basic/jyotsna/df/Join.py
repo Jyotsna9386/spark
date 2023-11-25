@@ -1,0 +1,22 @@
+from pyspark.sql import SparkSession
+from pyspark.sql.functions import col
+
+spark=SparkSession.builder.appName('Join').getOrCreate()
+df1=spark.read.csv('employees.csv',inferSchema=True,header=True)
+df2=spark.read.csv('dept.csv',inferSchema=True,header=True)
+print(df1.show())
+print(df2.show())
+# join_df=df1.join(df2,on='dept',how='inner')
+# print(join_df.show())
+# join_outer_df=df1.join(df2,on='dept',how='outer')
+# print(join_outer_df.show())
+# join_left_df=df1.join(df2,on='dept',how='left')
+# print(join_left_df.show())
+# join_right_df=df1.join(df2,on='dept',how='right')
+# print(join_right_df.show())
+# join_semi_df=df1.join(df2,on='dept',how='left_semi')
+# print(join_semi_df.show())
+# join_anti_df=df1.join(df2,on='dept',how='left_anti')
+# print(join_anti_df.show())
+join_anti_df=df1.join(df2,on='dept',how='left')
+print(join_anti_df.show())

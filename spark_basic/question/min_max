@@ -1,0 +1,19 @@
+1. Basic operation in spark i.e filter,map,flatmap,reduceBykey,groupBykey etc
+https://github.com/mahmoudparsian/pyspark-tutorial/blob/master/tutorial/pyspark-examples/rdds/pyspark-session-2018-10-09.txt
+2, Basic operation on number
+https://github.com/mahmoudparsian/pyspark-tutorial/tree/master/tutorial/split-function
+https://github.com/mahmoudparsian/pyspark-tutorial/blob/master/tutorial/pyspark-examples/rdds/pyspark-session-2021-10-11-filter-map-flatMap.txt
+https://github.com/mahmoudparsian/pyspark-tutorial/blob/master/tutorial/pyspark-examples/rdds/pyspark-session-2022-04-14-mappers-and-filters-and-reduce.txt
+https://github.com/mahmoudparsian/pyspark-tutorial/blob/master/tutorial/pyspark-examples/rdds/pyspark-session_2020-07-01.txt
+https://github.com/mahmoudparsian/pyspark-tutorial/blob/master/tutorial/pyspark-examples/rdds/pyspark-session-2019-01-30.txt
+https://github.com/mahmoudparsian/pyspark-tutorial/blob/master/tutorial/pyspark-examples/rdds/pyspark-session-2019-10-16.txt
+3. basic of reading text file
+https://github.com/mahmoudparsian/pyspark-tutorial/blob/master/tutorial/pyspark-examples/rdds/pyspark-session-2021-10-20-understanding-partitions.txt
+https://github.com/mahmoudparsian/pyspark-tutorial/blob/master/tutorial/pyspark-examples/rdds/pyspark-session-2020-01-24.txt
+https://github.com/mahmoudparsian/pyspark-tutorial/blob/master/tutorial/pyspark-examples/rdds/pyspark-session_2019-10-07.txt
+https://github.com/mahmoudparsian/pyspark-tutorial/blob/master/tutorial/pyspark-examples/rdds/pyspark-session-2021-10-25-RDD-join.txt
+https://github.com/mahmoudparsian/pyspark-tutorial/blob/master/tutorial/pyspark-examples/rdds/pyspark-session-2022-04-19-read-text-groupbykey-mapvalues-filter.txt
+
+Practical:
+----------
+https://github.com/mahmoudparsian/pyspark-tutorial/blob/master/tutorial/top-N/top-N.txt

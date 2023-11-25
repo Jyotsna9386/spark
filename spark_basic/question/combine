@@ -1,0 +1,29 @@
+1. Given a set of data
+a. find sum per key
+b. find count per key
+c. find min per key
+d. find max per key
+e. find avg per key
+f. find mean per key
+g. find std deviation per key
+h.  overall sum,min,max,avg,mean,std deviation
+
+data = [('A', 2), ('A', 3), ('A', 4), ('A', 5), ('B', 6), ('B', 7), ('B', 8),('C',23) ]
+
+2. Find Mean,Median,Min,Max,Avg etc using groupbykey and reducebykey and combineby key
+data = [('A', 3), ('A', 4), ('A', -2),
+('B', -3), ('B', 4), ('B', 5),
+('C', 4),
+('D', -7), ('D', -9),
+('E', -5),
+('F', -2), ('F', 0)]
+Ref: https://github.com/mahmoudparsian/pyspark-tutorial/blob/master/tutorial/pyspark-examples/rdds/groupbykey_and_reducebykey_example.ipynb
+Ans:
+[('B', 2.0),
+ ('C', 4.0),
+ ('A', 1.6666666666666667),
+ ('F', -1.0),
+ ('D', -8.0),
+ ('E', -5.0)]
+3. word count program
+https://github.com/mahmoudparsian/pyspark-tutorial/blob/master/tutorial/pyspark-examples/rdds/pyspark-session-2015-02-23.txt

@@ -1,0 +1,1 @@
+#Q1: Convert all words in a rdd to lowercase and split the lines of a document using space.
